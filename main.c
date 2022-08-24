@@ -16,9 +16,5 @@ int main()
 
 int sum(int n)
 {
-	int i, s = 0;
-	for(i = 1; i <= n; i++)
-		s += i;
-
-	return s;
+	return n * (n + 1) / 2;
 }
